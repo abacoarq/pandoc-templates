@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="14.0(209)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="14.0" Self="d">
+	<RootCharacterStyleGroup Self="u6a">
+		<CharacterStyle Self="CharacterStyle/BoldItalic" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="841387c7-9471-4818-a1d8-4dfd4aa530af" IncludeClass="true" KeyboardShortcut="0 0" Name="BoldItalic" FontStyle="Medium Italic">
+			<Properties>
+				<BasedOn type="string">$$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+    $charStyles$
+	</RootCharacterStyleGroup>
+	<RootParagraphStyleGroup Self="u69">
+		<ParagraphStyle Self="ParagraphStyle/Parágrafo Sans" Name="Parágrafo Sans" Imported="false" NextStyle="ParagraphStyle/Parágrafo Sans" SplitDocument="false" EmitCss="true" StyleUniqueId="$$ID/" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Abstract" Name="Abstract" Imported="false" NextStyle="ParagraphStyle/Data" SplitDocument="false" EmitCss="true" StyleUniqueId="8ba3ae49-85d0-4860-973c-0806774e7332" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Tracking="25" LeftIndent="96" SpaceBefore="24" SpaceAfter="24" Justification="LeftJustified">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Data" Name="Data" Imported="false" NextStyle="ParagraphStyle/Vocativo" SplitDocument="false" EmitCss="true" StyleUniqueId="f99aaceb-dd2b-49ea-b89a-5d43c827f53d" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceAfter="16" Justification="RightAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/First Paragraph</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/First Paragraph" Name="First Paragraph" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="6a1cb93a-ac18-4b2d-97fd-dc4827e3d357" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FirstLineIndent="48" SpaceBefore="32">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Vocativo" Name="Vocativo" Imported="false" NextStyle="ParagraphStyle/First Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="6a1cb93a-ac18-4b2d-97fd-dc4827e3d357" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FirstLineIndent="48" SpaceBefore="32">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Assinatura" Name="Assinatura" Imported="false" NextStyle="ParagraphStyle/Assinatura" SplitDocument="false" EmitCss="true" StyleUniqueId="835504d2-2eca-40b9-95f0-e70ecd3afcac" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceBefore="48" Justification="CenterAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Abstract</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<SameParaStyleSpacing type="unit">0</SameParaStyleSpacing>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Destinatário" Name="Destinatário" Imported="false" NextStyle="ParagraphStyle/Destinatário" SplitDocument="false" EmitCss="true" StyleUniqueId="604adbe9-fdcb-406b-b171-52878e8825f9" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="10" RightIndent="152">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Parágrafo Sans</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Remetente" Name="Remetente" Imported="false" NextStyle="ParagraphStyle/Remetente" SplitDocument="false" EmitCss="true" StyleUniqueId="a0e22caf-d062-4a9b-8d2c-38ff8e8c4315" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Justification="RightAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Header-includes</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Header-includes" Name="Header-includes" Imported="false" NextStyle="ParagraphStyle/Header-includes" SplitDocument="false" EmitCss="true" StyleUniqueId="156cda25-5571-4ec1-9d0b-787eda10ba5d" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Regular " PointSize="10" LeftIndent="16" RightIndent="16" AppliedLanguage="$$ID/Portuguese: Orthographic Agreement" SpaceAfter="8" OTFFigureStyle="ProportionalOldstyle" Justification="CenterJustified" PositionalForm="Calculate" GridAlignment="AlignBaseline">
+			<Properties>
+				<BasedOn type="string">$$ID/[No paragraph style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">8</Leading>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">RightAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">283.46456692913387</Position>
+					</ListItem>
+				</TabList>
+				<AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+				<BulletChar BulletCharacterType="UnicodeWithFont" BulletCharacterValue="10070" />
+				<BulletsFont type="string">Zapf Dingbats</BulletsFont>
+				<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+			</Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Title" Name="Title" Imported="false" NextStyle="ParagraphStyle/Subtitle" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Thin" PointSize="23" KerningMethod="$$ID/Optical" Tracking="400" Capitalization="AllCaps" LeftIndent="15" RightIndent="15" Hyphenation="false" Justification="FullyJustified">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="unit">28</Leading>
+        <AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+      </Properties>
+   </ParagraphStyle>
+   <ParagraphStyle Self="ParagraphStyle/Subtitle" Name="Subtitle" Imported="false" NextStyle="ParagraphStyle/Abstract" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Thin" PointSize="12" KerningMethod="$$ID/Optical" Tracking="400" Capitalization="AllCaps" LeftIndent="15" RightIndent="15" Hyphenation="false" Justification="FullyJustified">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/Title</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="unit">16</Leading>
+        <AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+      </Properties>
+    </ParagraphStyle>
+    $parStyles$
+	</RootParagraphStyleGroup>
+<Story Self="pandoc_story" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="16" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Title">
+$if(title)$
+      $title$
+      <Br />
+$endif$
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Subtitle">
+$if(subtitle)$
+      $subtitle$
+      <Br />
+$endif$
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<TextFrame Self="frame_destinatario" ParentStory="story_destinatario" PreviousTextFrame="n" NextTextFrame="n" ContentType="TextType" ParentInterfaceChangeCount="138508 1170120811 138558 513711015" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" Visible="true" Name="$$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" StrokeWeight="1" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$$ID/[None]" ItemTransform="1 0 0 1 219.6669133858269 -41.511811025149655">
+					<Properties>
+						<PathGeometry>
+							<GeometryPathType PathOpen="false">
+								<PathPointArray>
+									<PathPointType Anchor="-219.6669133858269 -54.48818897485045" LeftDirection="-219.6669133858269 -54.48818897485045" RightDirection="-219.6669133858269 -54.48818897485045" />
+									<PathPointType Anchor="-219.6669133858269 41.5118110251496" LeftDirection="-219.6669133858269 41.5118110251496" RightDirection="-219.6669133858269 41.5118110251496" />
+									<PathPointType Anchor="275.9702450208431 41.5118110251496" LeftDirection="275.9702450208431 41.5118110251496" RightDirection="275.9702450208431 41.5118110251496" />
+									<PathPointType Anchor="275.9702450208431 -54.48818897485045" LeftDirection="275.9702450208431 -54.48818897485045" RightDirection="275.9702450208431 -54.48818897485045" />
+								</PathPointArray>
+							</GeometryPathType>
+						</PathGeometry>
+					</Properties>
+					<TextFramePreference FootnotesEnableOverrides="false" FootnotesSpanAcrossColumns="false" FootnotesMinimumSpacing="12" FootnotesSpaceBetween="6" TextColumnCount="1" TextColumnFixedWidth="495.63715840667" TextColumnMaxWidth="0" AutoSizingType="Off" AutoSizingReferencePoint="CenterPoint" UseMinimumHeightForAutoSizing="false" MinimumHeightForAutoSizing="0" UseMinimumWidthForAutoSizing="false" MinimumWidthForAutoSizing="0" UseNoLineBreaksForAutoSizing="false">
+						<Properties>
+							<InsetSpacing type="list">
+								<ListItem type="unit">12</ListItem>
+								<ListItem type="unit">0</ListItem>
+								<ListItem type="unit">0</ListItem>
+								<ListItem type="unit">0</ListItem>
+							</InsetSpacing>
+						</Properties>
+					</TextFramePreference>
+					<AnchoredObjectSetting AnchoredPosition="Anchored" PinPosition="false" VerticalAlignment="TopAlign" AnchorXoffset="-495.63715840667" AnchorYoffset="671.9997975240001" />
+					<TextFrameFootnoteOptionsObject EnableOverrides="false" SpanFootnotesAcross="false" MinimumSpacingOption="12" SpaceBetweenFootnotes="6" />
+					<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="BoundingBoxTextWrap">
+						<Properties>
+							<TextWrapOffset Top="14" Left="14" Bottom="14" Right="14" />
+						</Properties>
+					</TextWrapPreference>
+					<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$$ID/" CustomActualText="$$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$$ID/" SizeType="DefaultSize" CustomSize="$$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+						<Properties>
+							<AltMetadataProperty NamespacePrefix="$$ID/" PropertyPath="$$ID/" />
+							<ActualMetadataProperty NamespacePrefix="$$ID/" PropertyPath="$$ID/" />
+						</Properties>
+					</ObjectExportOption>
+				</TextFrame>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+$if(abstract)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Abstract">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/BoldItalic">
+				<Content>Assunto:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> </Content>
+			</CharacterStyleRange>
+      $abstract$
+      <Br />
+		</ParagraphStyleRange>
+$endif$
+$if(date)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Data">
+      $date$
+      <Br />
+		</ParagraphStyleRange>
+$endif$
+
+$if(contributor)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Vocativo">
+      $contributor.role$
+      <Br />
+		</ParagraphStyleRange>
+$else$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/First Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+        A quem interessar possa,
+        <Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+$endif$
+
+    $body$
+    <Br />
+
+$if(creator)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Assinatura">
+      $creator.name$ 
+      <Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Assinatura">
+      $creator.occupation$
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> · </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+				<Content>CAU </Content>
+			</CharacterStyleRange> $creator.id$
+      <Br />
+		</ParagraphStyleRange>
+$endif$
+	</Story>
+
+$if(contributor)$
+	<Story Self="story_destinatario" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Destinatário">
+      $contributor.name$
+      <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+        <Content>, </Content>
+      </CharacterStyleRange> 
+      $contributor.occupation$
+      <Br />
+      $contributor.institute$
+      <Br />
+      $contributor.address$
+      <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+        <Content> · </Content>
+      </CharacterStyleRange>
+      $contributor.phone$
+      <Br />
+      $contributor.address2$
+		</ParagraphStyleRange>
+	</Story>
+$endif$
+  $hyperlinks$
+</Document>

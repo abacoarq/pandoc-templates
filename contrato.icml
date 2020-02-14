@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+	<RootCharacterStyleGroup Self="pandoc_character_styles">
+	  <CharacterStyle Self="$$ID/NormalCharacterStyle" Name="Default" />
+			<CharacterStyle Self="CharacterStyle/BoldItalic" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="dcc84f93-b4b7-4fb6-a516-777e8edd8f15" IncludeClass="true" KeyboardShortcut="0 0" Name="BoldItalic" FontStyle="Medium Italic">
+				<Properties>
+					<BasedOn type="object">CharacterStyle/Default</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+				</Properties>
+			</CharacterStyle>
+	  $charStyles$ 
+	</RootCharacterStyleGroup>
+	<RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+	  <ParagraphStyle Self="$$ID/NormalParagraphStyle" Name="$$ID/NormalParagraphStyle"
+		  SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+		<Properties>
+		  <TabList type="list">
+			<ListItem type="record">
+			  <Alignment type="enumeration">LeftAlign</Alignment>
+			  <AlignmentCharacter type="string">.</AlignmentCharacter>
+			  <Leader type="string"></Leader>
+			  <Position type="unit">10</Position> <!-- first tab stop -->
+			</ListItem>
+		  </TabList>
+		</Properties>
+				</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/Title" Name="Title" Imported="false" NextStyle="ParagraphStyle/Subtitle" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Thin" PointSize="23" KerningMethod="$$ID/Optical" Tracking="400" Capitalization="AllCaps" LeftIndent="15" RightIndent="15" Hyphenation="false" Justification="FullyJustified">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<Leading type="unit">28</Leading>
+					<AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/Subtitle" Name="Subtitle" Imported="false" NextStyle="ParagraphStyle/Subtitle" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light" PointSize="16" KerningMethod="$$ID/Metrics" Tracking="100" LeftIndent="16" RightIndent="16" SpaceBefore="8" SpaceAfter="8" RuleBelowOffset="9.921259842519685" Justification="CenterAlign">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/Title</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<Leading type="unit">8</Leading>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/Abstract" Name="Abstract" Imported="false" NextStyle="ParagraphStyle/Abstract" SplitDocument="false" EmitCss="true" StyleUniqueId="3e858e84-c2d0-48f1-94a1-8c59093687bb" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light Italic" Tracking="25" LeftIndent="96" SpaceAfter="8" Justification="LeftJustified">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/Header-includes" Name="Header-includes" Imported="false" NextStyle="ParagraphStyle/Header-includes" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Regular " PointSize="10" LeftIndent="16" RightIndent="16" AppliedLanguage="$$ID/Portuguese: Orthographic Agreement" SpaceAfter="8" OTFFigureStyle="ProportionalOldstyle" Justification="CenterJustified" PositionalForm="Calculate" GridAlignment="AlignBaseline" TreatIdeographicSpaceAsSpace="false" DiacriticPosition="OpentypePosition">
+				<Properties>
+					<BasedOn type="string">$$ID/[No paragraph style]</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<Leading type="unit">8</Leading>
+					<TabList type="list">
+						<ListItem type="record">
+							<Alignment type="enumeration">RightAlign</Alignment>
+							<AlignmentCharacter type="string">.</AlignmentCharacter>
+							<Leader type="string"></Leader>
+							<Position type="unit">283.46456692913387</Position>
+						</ListItem>
+					</TabList>
+					<AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+					<ParagraphBorderGapColor type="object">Swatch/None</ParagraphBorderGapColor>
+					<BulletChar BulletCharacterType="UnicodeWithFont" BulletCharacterValue="10070" />
+					<BulletsFont type="string">Zapf Dingbats</BulletsFont>
+					<BulletsFontStyle type="string">Regular</BulletsFontStyle>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/Header1 Unnumbered" Name="Header1 Unnumbered" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="f04b71e5-0b2c-49b1-9913-a3d6c7041d19" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Medium" Hyphenation="false" SpaceBefore="16" SpaceAfter="0" OTFFigureStyle="ProportionalLining" KeepAllLinesTogether="true" KeepWithNext="1" RuleBelowOffset="8" RuleBelowLeftIndent="16" RuleBelowRightIndent="16" Justification="LeftAlign">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/Abstract</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<BalanceRaggedLines type="enumeration">VeeShape</BalanceRaggedLines>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign" Name="TablePar &gt; TableHeader &gt; RightAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="51d8da18-1056-4877-a9f5-411520537b4d" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Justification="RightAlign">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign" Name="TablePar &gt; TableHeader &gt; LeftAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="a5914698-acf2-4101-89fd-72d43d1f9832" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="10" Capitalization="CapToSmallCap" LeftIndent="0" RightIndent="0" Justification="LeftAlign">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<Leading type="unit">8</Leading>
+					<AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/TablePar &gt; RightAlign" Name="TablePar &gt; RightAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; RightAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="6ca73408-e31a-4d82-836d-42cd53c2e081" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" OTFFigureStyle="TabularOldstyle" Justification="RightAlign">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/TablePar &gt; LeftAlign</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/TablePar &gt; LeftAlign" Name="TablePar &gt; LeftAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; LeftAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="7feba5f8-4fce-4f8a-ad07-f1a0389ac627" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Book" PointSize="9" LeftIndent="0" RightIndent="0" Justification="LeftAlign">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<Leading type="enumeration">Auto</Leading>
+					<AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+				</Properties>
+			</ParagraphStyle>
+			<ParagraphStyle Self="ParagraphStyle/Assinatura" Name="Assinatura" Imported="false" NextStyle="ParagraphStyle/Assinatura" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Book" PointSize="12" KerningMethod="$$ID/Optical" Tracking="100" LeftIndent="16" RightIndent="16" Hyphenation="false" Justification="LeftAlign">
+				<Properties>
+					<BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<Leading type="unit">16</Leading>
+					<AppliedFont type="string">Joanna Nova</AppliedFont>
+				</Properties>
+			</ParagraphStyle>
+	  $parStyles$ 
+	</RootParagraphStyleGroup>
+	<RootCellStyleGroup Self="pandoc_cell_styles">
+			<CellStyle Self="CellStyle/Table Header Right" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign" KeyboardShortcut="0 0" Name="Table Header Right">
+				<Properties>
+					<BasedOn type="object">CellStyle/Table Header</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table Header" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign" VerticalJustification="BottomAlign" RotationAngle="0" BottomEdgeStrokeWeight="1" BottomEdgeStrokeType="StrokeStyle/$$ID/Solid" BottomEdgeStrokeColor="Color/Registration" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="true" KeyboardShortcut="0 0" Name="Table Header">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table left column" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign" KeyboardShortcut="0 0" Name="Table left column">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Cell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" TopInset="0" LeftInset="8" BottomInset="4" RightInset="8" FillColor="Swatch/None" FirstBaselineOffset="LeadingOffset" VerticalJustification="TopAlign" LeftEdgeStrokeColor="Swatch/None" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Swatch/None" KeyboardShortcut="0 0" RotationRunsAgainstStory="false" Name="Cell">
+				<Properties>
+					<BasedOn type="string">$$ID/[None]</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table Footer" AppliedParagraphStyle="ParagraphStyle/$$ID/[No paragraph style]" VerticalJustification="BottomAlign" RotationAngle="0" TopEdgeStrokeWeight="1" TopEdgeStrokeType="StrokeStyle/$$ID/Solid" TopEdgeStrokeColor="Color/Black" TopEdgeStrokeOverprint="true" BottomEdgeStrokeWeight="1" BottomEdgeStrokeType="StrokeStyle/$$ID/Solid" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="true" KeyboardShortcut="0 0" Name="Table Footer">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table Header Left" TextTopInset="0" TextLeftInset="0" AppliedParagraphStyle="ParagraphStyle/$$ID/[No paragraph style]" TopInset="0" LeftInset="0" VerticalJustification="TopAlign" BottomEdgeStrokeColor="Swatch/None" KeyboardShortcut="0 0" Name="Table Header Left">
+				<Properties>
+					<BasedOn type="object">CellStyle/Table Header</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Cell Currency" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign" KeyboardShortcut="0 0" Name="Cell Currency">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+		</RootCellStyleGroup>
+	<RootTableStyleGroup Self="pandoc_table_styles">
+	  <TableStyle Self="TableStyle/Table" Name="Table" />
+	</RootTableStyleGroup>
+	<TextVariable Self="dTextVariablenCopyright e ano (output date)" Name="Copyright e ano (output date)" VariableType="OutputDateType">
+		<DateVariablePreference TextBefore="^2 " Format="yyyy" TextAfter="" />
+	</TextVariable>
+
+  <Story Self="pandoc_story" TrackChanges="false" StoryTitle="$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$" AppliedTOCStyle="n" AppliedNamedGrid="n" >
+		<StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+    $if(author)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header-includes">
+			$author$
+			<Br />
+		</ParagraphStyleRange>
+    $endif$
+    $if(title)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Title">
+			$title$
+			<Br />
+		</ParagraphStyleRange>
+    $endif$
+    $if(subtitle)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Subtitle">
+			$subtitle$
+			<Br />
+		</ParagraphStyleRange>
+    $endif$
+
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Partes</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		$for(contributor)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			$contributor.role$
+			<Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Table Self="table_ident_interessada" HeaderRowCount="1" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="$if(contributor.institute)$7$else$5$endif$" ColumnCount="2" AppliedTableStyle="TableStyle/Table" TableDirection="LeftToRightDirection">
+					<Row Self="row_interessada_razao_social" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="20" />
+					<Row Self="row_interessada_cnpj" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_address" Name="2" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_address2" Name="3" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />$if(contributor.institute)$
+					<Row Self="row_interessada_resp" Name="4" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_cpf" Name="5" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />$endif$
+					<Row Self="row_interessada_email" Name="$if(contributor.institute)$6$else$4$endif$" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_phone" Name="$if(contributor.institute)$7$else$5$endif$" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Column Self="col_interessada_headers" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="128" />
+					<Column Self="col_interessada_content" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="336" />
+					<Cell Self="cell_interessada_razao_social_header" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header Right" AppliedCellStylePriority="2" LeftEdgeStrokePriority="6" RightEdgeStrokePriority="16" TopEdgeStrokePriority="6" BottomEdgeStrokePriority="6">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign">
+              $if(contributor.institute)$
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+                <Content>Razão social</Content>
+							</CharacterStyleRange>
+              $else$
+                $contributor.occupation$
+              $endif$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_razao_social_content" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header" AppliedCellStylePriority="3" LeftEdgeStrokePriority="16" RightEdgeStrokePriority="16" TopEdgeStrokePriority="16" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign">
+              $if(contributor.institute)$
+							  $contributor.institute$
+              $else$
+                $contributor.name$
+              $endif$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cnpj_header" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+                <Content>$if(contributor.institute-id)$CNPJ$else$CPF$endif$</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cnpj_content" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+              $if(contributor.institute-id)$
+                $contributor.institute-id$
+              $else$
+                $contributor.id$
+              $endif$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address_header" Name="0:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Endereço</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address_content" Name="1:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.address$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address2_header" Name="0:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address2_content" Name="1:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.address2$
+						</ParagraphStyleRange>
+					</Cell>$if(contributor.institute)$
+					<Cell Self="cell_interessada_resp_header" Name="0:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Responsável legal</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_resp_content" Name="1:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.name$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cpf_header" Name="0:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+								<Content>CPF</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cpf_content" Name="1:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.id$
+						</ParagraphStyleRange>
+					</Cell>$endif$
+					<Cell Self="cell_interessada_email_header" Name="0:$if(contributor.institute)$6$else$4$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>E-mail</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_email_content" Name="1:$if(contributor.institute)$6$else$4$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.email$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_phone_header" Name="0:$if(contributor.institute)$7$else$5$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Telefone</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_phone_content" Name="1:$if(contributor.institute)$7$else$5$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.phone$
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		$endfor$
+		$for(creator)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			$creator.role$
+			<Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Table Self="table_ident_executora" HeaderRowCount="1" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="$if(creator.institute)$7$else$5$endif$" ColumnCount="2" AppliedTableStyle="TableStyle/Table" TableDirection="LeftToRightDirection">
+					<Row Self="row_ident_executora_razao_social" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="20" />
+					<Row Self="row_ident_executora_cnpj" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_address" Name="2" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_address2" Name="3" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />$if(creator.institute)$
+					<Row Self="row_ident_executora_responsavel" Name="4" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_cau" Name="5" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />$endif$
+					<Row Self="row_ident_executora_email" Name="$if(creator.institute)$6$else$4$endif$" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_phone" Name="$if(creator.institute)$7$else$5$endif$" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Column Self="col_ident_executora_headers" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="128" />
+					<Column Self="col_ident_executora_content" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="336" />
+					<Cell Self="cell_ident_executora_razao_social_header" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header Right" AppliedCellStylePriority="2" LeftEdgeStrokePriority="6" RightEdgeStrokePriority="16" TopEdgeStrokePriority="6" BottomEdgeStrokePriority="6">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign">
+              $if(creator.institute)$
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+                <Content>Razão social</Content>
+							</CharacterStyleRange>
+              $else$
+                $creator.occupation$
+              $endif$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_razao_social_content" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header" AppliedCellStylePriority="3" LeftEdgeStrokePriority="16" RightEdgeStrokePriority="16" TopEdgeStrokePriority="16" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign">
+              $if(creator.institute)$
+                $creator.institute$
+              $else$
+                $creator.name$
+              $endif$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cnpj_header" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="17" BottomEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+                <Content>$if(creator.institute-id)$CNPJ$else$CAU$endif$</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cnpj_content" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="5" BottomEdgeStrokePriority="6">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+              $if(creator.institute-id)$
+                $creator.institute-id$
+              $else$
+                $creator.id$
+              $endif$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address_header" Name="0:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="5" BottomEdgeStrokePriority="7">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Endereço</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address_content" Name="1:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="6" BottomEdgeStrokePriority="8">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.address$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address2_header" Name="0:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="7" BottomEdgeStrokePriority="9">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address2_content" Name="1:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="8" BottomEdgeStrokePriority="10">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.address2$
+						</ParagraphStyleRange>
+					</Cell>$if(creator.institute)$
+					<Cell Self="cell_ident_executora_resp_header" Name="0:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="9" BottomEdgeStrokePriority="11">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Responsável legal</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_resp_content" Name="1:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="10" BottomEdgeStrokePriority="12">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.name$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cau_header" Name="0:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="11" BottomEdgeStrokePriority="13">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+								<Content>CAU</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cau_content" Name="1:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="12" BottomEdgeStrokePriority="14">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.id$
+						</ParagraphStyleRange>
+					</Cell>$endif$
+					<Cell Self="cell_ident_executora_email_header" Name="0:$if(creator.institute)$6$else$4$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="13" BottomEdgeStrokePriority="15">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>E-mail</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_email_content" Name="1:$if(creator.institute)$6$else$4$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="14" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.email$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_phone_header" Name="0:$if(creator.institute)$7$else$5$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="15" BottomEdgeStrokePriority="15">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Telefone</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_phone_content" Name="1:$if(creator.institute)$7$else$5$endif$" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="16" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.phone$
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		$endfor$
+
+$body$
+
+				<Br />
+				<Br />
+				<Table Self="ua8a6iaec8" HeaderRowCount="0" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="4" ColumnCount="3" AppliedTableStyle="TableStyle/Table" TableDirection="LeftToRightDirection">
+					<Row Self="ua8a6iaec8Row0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" SingleRowHeight="54.00000000000091" />
+					<Row Self="ua8a6iaec8Row1" Name="1" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="ua8a6iaec8Row2" Name="2" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" SingleRowHeight="64" />
+					<Row Self="ua8a6iaec8Row3" Name="3" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Column Self="ua8a6iaec8Column0" Name="0" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" SingleColumnWidth="188.72372703399986" />
+					<Column Self="ua8a6iaec8Column1" Name="1" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" SingleColumnWidth="15.25" />
+					<Column Self="ua8a6iaec8Column2" Name="2" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" SingleColumnWidth="180.02627296600002" />
+					<Cell Self="ua8a6iaec8i0" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" LeftEdgeStrokeWeight="0" RightEdgeStrokeWeight="0" TopEdgeStrokeWeight="0" BottomEdgeStrokeColor="Color/Registration" LeftEdgeStrokeType="StrokeStyle/$$ID/Solid" RightEdgeStrokeType="StrokeStyle/$$ID/Solid" TopEdgeStrokeType="StrokeStyle/$$ID/Solid" LeftEdgeStrokeTint="100" RightEdgeStrokeTint="100" TopEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" RightEdgeStrokeOverprint="false" TopEdgeStrokeOverprint="false" ClipContentToCell="false" LeftEdgeStrokePriority="2" RightEdgeStrokePriority="2" TopEdgeStrokePriority="2" BottomEdgeStrokePriority="2" LeftEdgeStrokeGapTint="100" RightEdgeStrokeGapTint="100" TopEdgeStrokeGapTint="100" BottomEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper" RightEdgeStrokeGapColor="Color/Paper" TopEdgeStrokeGapColor="Color/Paper" BottomEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Br />
+								<Br />
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i1" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" LeftEdgeStrokeWeight="0" LeftEdgeStrokeType="StrokeStyle/$$ID/Solid" LeftEdgeStrokeTint="100" LeftEdgeStrokeOverprint="false" ClipContentToCell="false" LeftEdgeStrokePriority="2" RightEdgeStrokePriority="25" TopEdgeStrokePriority="1" BottomEdgeStrokePriority="29" LeftEdgeStrokeGapTint="100" LeftEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i2" Name="2:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" BottomEdgeStrokeColor="Color/Registration" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="25" RightEdgeStrokePriority="1" TopEdgeStrokePriority="1" BottomEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i3" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" TopEdgeStrokeColor="Color/Registration" ClipContentToCell="false" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="29" TopEdgeStrokePriority="2" BottomEdgeStrokePriority="32" TopEdgeStrokeGapTint="100" TopEdgeStrokeGapColor="Color/Paper">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Contratante (Responsável legal)</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i4" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" ClipContentToCell="false" LeftEdgeStrokePriority="29" RightEdgeStrokePriority="30" TopEdgeStrokePriority="29" BottomEdgeStrokePriority="34">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i5" Name="2:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" TopEdgeStrokeColor="Color/Registration" TopEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="30" RightEdgeStrokePriority="1" TopEdgeStrokePriority="5" BottomEdgeStrokePriority="35">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Contratada (Responsável legal)</Content>
+								<Rectangle Self="uad63" ContentType="GraphicType" StoryTitle="$$ID/" ParentInterfaceChangeCount="138508 198489723 138558 1713770880" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" Visible="true" Name="$$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$$ID/[None]" ItemTransform="1 0 0 1 -6.749412299575113 -33.5">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="6.749412299575124 1.1221107297060389" LeftDirection="6.749412299575124 1.1221107297060389" RightDirection="6.749412299575124 1.1221107297060389" />
+													<PathPointType Anchor="6.749412299575124 33.5" LeftDirection="6.749412299575124 33.5" RightDirection="6.749412299575124 33.5" />
+													<PathPointType Anchor="201.5 33.5" LeftDirection="201.5 33.5" RightDirection="201.5 33.5" />
+													<PathPointType Anchor="201.5 1.1221107297060389" LeftDirection="201.5 1.1221107297060389" RightDirection="201.5 1.1221107297060389" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<AnchoredObjectSetting AnchoredPosition="Anchored" PinPosition="false" AnchorXoffset="-479.4743147344247" AnchorYoffset="-15.622110729707856" />
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="BoundingBoxTextWrap">
+										<Properties>
+											<TextWrapOffset Top="14" Left="14" Bottom="14" Right="14" />
+										</Properties>
+										<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$$ID/" />
+									</TextWrapPreference>
+									<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+									<FrameFittingOption AutoFit="true" FittingOnEmptyFrame="Proportionally" FittingAlignment="CenterAnchor" />
+									<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$$ID/" CustomActualText="$$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$$ID/" SizeType="DefaultSize" CustomSize="$$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$$ID/" PropertyPath="$$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$$ID/" PropertyPath="$$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<Image Self="uad77" Space="$$ID/#Links_RGB" ActualPpi="72 72" EffectivePpi="149 149" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$$ID/Portable Network Graphics (PNG)" AppliedObjectStyle="ObjectStyle/$$ID/[None]" ItemTransform="0.4832520786611039 0 0 0.4832520786611039 6.749412299575124 1.1221107297060389" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" Visible="true" Name="$$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0">
+										<Properties>
+											<Profile type="string">$$ID/None</Profile>
+											<GraphicProxy><![CDATA[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]]></GraphicProxy>
+											<GraphicBounds Left="0" Top="0" Right="403" Bottom="67" />
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$$ID/" />
+										</TextWrapPreference>
+										<Link Self="uad61" AssetURL="$$ID/" AssetID="$$ID/" LinkResourceURI="file:/Volumes/nuvem/intranet/projetos/abaco/docs/assinatura-juju.png" LinkResourceFormat="$$ID/Portable Network Graphics (PNG)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131221719100000000 9059" LinkImportModificationTime="2016-10-28T21:45:10" LinkImportTime="2018-12-13T22:11:03" LinkResourceSize="0~2363" RenditionData="Actual" />
+										<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$$ID/" Index="-1" />
+										<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$$ID/" />
+									</Image>
+								</Rectangle>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i6" Name="0:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" BottomEdgeStrokeColor="Color/Registration" ClipContentToCell="false" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="34" TopEdgeStrokePriority="32" BottomEdgeStrokePriority="7">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Br />
+								<Br />
+								<Br />
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i7" Name="1:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" ClipContentToCell="false" LeftEdgeStrokePriority="34" RightEdgeStrokePriority="35" TopEdgeStrokePriority="34" BottomEdgeStrokePriority="39">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i8" Name="2:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" BottomEdgeStrokeColor="Color/Registration" BottomEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="35" RightEdgeStrokePriority="1" TopEdgeStrokePriority="35" BottomEdgeStrokePriority="9">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8i9" Name="0:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" TopEdgeStrokeColor="Color/Registration" ClipContentToCell="false" LeftEdgeStrokePriority="1" RightEdgeStrokePriority="39" TopEdgeStrokePriority="7" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Testemunha 1</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8ia" Name="1:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" ClipContentToCell="false" LeftEdgeStrokePriority="39" RightEdgeStrokePriority="40" TopEdgeStrokePriority="39" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="ua8a6iaec8ib" Name="2:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="0" TextBottomInset="4" TextRightInset="2" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="1" TopEdgeStrokeColor="Color/Registration" TopEdgeStrokeTint="100" ClipContentToCell="false" LeftEdgeStrokePriority="40" RightEdgeStrokePriority="1" TopEdgeStrokePriority="9" BottomEdgeStrokePriority="1">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" Justification="CenterAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Testemunha 2 (Responsável técnico)</Content>
+								<Rectangle Self="uad57" ContentType="GraphicType" StoryTitle="$$ID/" ParentInterfaceChangeCount="138508 1912539902 138558 256904766" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" OverriddenPageItemProps="" Visible="true" Name="$$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientStrokeStart="0 0" GradientStrokeLength="0" GradientStrokeAngle="0" Locked="false" LocalDisplaySetting="Default" GradientFillHiliteLength="0" GradientFillHiliteAngle="0" GradientStrokeHiliteLength="0" GradientStrokeHiliteAngle="0" AppliedObjectStyle="ObjectStyle/$$ID/[None]" ItemTransform="1 0 0 1 96 -43.2000000000001">
+									<Properties>
+										<PathGeometry>
+											<GeometryPathType PathOpen="false">
+												<PathPointArray>
+													<PathPointType Anchor="-96.00000000000001 -31.276018099547414" LeftDirection="-96.00000000000001 -31.276018099547414" RightDirection="-96.00000000000001 -31.276018099547414" />
+													<PathPointType Anchor="-96.00000000000001 43.2000000000001" LeftDirection="-96.00000000000001 43.2000000000001" RightDirection="-96.00000000000001 43.2000000000001" />
+													<PathPointType Anchor="132.59999999999997 43.2000000000001" LeftDirection="132.59999999999997 43.2000000000001" RightDirection="132.59999999999997 43.2000000000001" />
+													<PathPointType Anchor="132.59999999999997 -31.276018099547414" LeftDirection="132.59999999999997 -31.276018099547414" RightDirection="132.59999999999997 -31.276018099547414" />
+												</PathPointArray>
+											</GeometryPathType>
+										</PathGeometry>
+									</Properties>
+									<AnchoredObjectSetting AnchoredPosition="Anchored" PinPosition="false" AnchorXoffset="-509.96179527549975" AnchorYoffset="6.18682793289554" />
+									<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="BoundingBoxTextWrap">
+										<Properties>
+											<TextWrapOffset Top="14" Left="14" Bottom="14" Right="14" />
+										</Properties>
+										<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$$ID/" />
+									</TextWrapPreference>
+									<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+									<FrameFittingOption AutoFit="true" FittingOnEmptyFrame="Proportionally" FittingAlignment="CenterAnchor" />
+									<ObjectExportOption AltTextSourceType="SourceXMLStructure" ActualTextSourceType="SourceXMLStructure" CustomAltText="$$ID/" CustomActualText="$$ID/" ApplyTagType="TagFromStructure" ImageConversionType="JPEG" ImageExportResolution="Ppi300" GIFOptionsPalette="AdaptivePalette" GIFOptionsInterlaced="true" JPEGOptionsQuality="High" JPEGOptionsFormat="BaselineEncoding" ImageAlignment="AlignLeft" ImageSpaceBefore="0" ImageSpaceAfter="0" UseImagePageBreak="false" ImagePageBreak="PageBreakBefore" CustomImageAlignment="false" SpaceUnit="CssPixel" CustomLayout="false" CustomLayoutType="AlignmentAndSpacing" EpubType="$$ID/" SizeType="DefaultSize" CustomSize="$$ID/" PreserveAppearanceFromLayout="PreserveAppearanceDefault">
+										<Properties>
+											<AltMetadataProperty NamespacePrefix="$$ID/" PropertyPath="$$ID/" />
+											<ActualMetadataProperty NamespacePrefix="$$ID/" PropertyPath="$$ID/" />
+										</Properties>
+									</ObjectExportOption>
+									<Image Self="uaed6" Space="$$ID/#Links_RGB" ActualPpi="72 72" EffectivePpi="696 696" ImageRenderingIntent="UseColorSettings" OverriddenPageItemProps="" LocalDisplaySetting="Default" ImageTypeName="$$ID/Portable Network Graphics (PNG)" AppliedObjectStyle="ObjectStyle/$$ID/[None]" ItemTransform="0.1034389140271493 0 0 0.10343891402714932 -96.00000000000001 -31.276018099547407" ParentInterfaceChangeCount="" TargetInterfaceChangeCount="" LastUpdatedInterfaceChangeCount="" Visible="true" Name="$$ID/" HorizontalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" VerticalLayoutConstraints="FlexibleDimension FixedDimension FlexibleDimension" GradientFillStart="0 0" GradientFillLength="0" GradientFillAngle="0" GradientFillHiliteLength="0" GradientFillHiliteAngle="0">
+										<Properties>
+											<Profile type="string">$$ID/None</Profile>
+											<GraphicProxy><![CDATA[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]]></GraphicProxy>
+											<GraphicBounds Left="0" Top="0" Right="2210" Bottom="720" />
+										</Properties>
+										<TextWrapPreference Inverse="false" ApplyToMasterPageOnly="false" TextWrapSide="BothSides" TextWrapMode="None">
+											<Properties>
+												<TextWrapOffset Top="0" Left="0" Bottom="0" Right="0" />
+											</Properties>
+											<ContourOption ContourType="SameAsClipping" IncludeInsideEdges="false" ContourPathName="$$ID/" />
+										</TextWrapPreference>
+										<Link Self="uad56" AssetURL="$$ID/" AssetID="$$ID/" LinkResourceURI="file:/Volumes/nuvem/intranet/projetos/abaco/docs/assinatura-pp.png" LinkResourceFormat="$$ID/Portable Network Graphics (PNG)" StoredState="Normal" LinkClassID="35906" LinkClientID="257" LinkResourceModified="false" LinkObjectModified="false" ShowInUI="true" CanEmbed="true" CanUnembed="true" CanPackage="true" ImportPolicy="NoAutoImport" ExportPolicy="NoAutoExport" LinkImportStamp="file 131892222760000000 177952" LinkImportModificationTime="2018-12-13T22:51:16" LinkImportTime="2018-12-13T22:51:32" LinkResourceSize="0~2b720" RenditionData="Actual" />
+										<ClippingPathSettings ClippingType="None" InvertPath="false" IncludeInsideEdges="false" RestrictToFrame="false" UseHighResolutionImage="true" Threshold="25" Tolerance="2" InsetFrame="0" AppliedPathName="$$ID/" Index="-1" />
+										<ImageIOPreference ApplyPhotoshopClippingPath="true" AllowAutoEmbedding="true" AlphaChannelName="$$ID/" />
+									</Image>
+								</Rectangle>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+				<Br />
+
+  </Story>
+  $hyperlinks$
+</Document>

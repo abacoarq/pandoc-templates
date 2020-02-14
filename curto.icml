@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+	<RootCharacterStyleGroup Self="pandoc_character_styles">
+	  <CharacterStyle Self="$$ID/NormalCharacterStyle" Name="Default" />
+			<CharacterStyle Self="CharacterStyle/BoldItalic" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="dcc84f93-b4b7-4fb6-a516-777e8edd8f15" IncludeClass="true" KeyboardShortcut="0 0" Name="BoldItalic" FontStyle="Medium Italic">
+				<Properties>
+					<BasedOn type="object">CharacterStyle/Default</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+				</Properties>
+			</CharacterStyle>
+	  $charStyles$ 
+	</RootCharacterStyleGroup>
+	<RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+	  <ParagraphStyle Self="$$ID/NormalParagraphStyle" Name="$$ID/NormalParagraphStyle"
+		  SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+      <Properties>
+        <TabList type="list">
+        <ListItem type="record">
+          <Alignment type="enumeration">LeftAlign</Alignment>
+          <AlignmentCharacter type="string">.</AlignmentCharacter>
+          <Leader type="string"></Leader>
+          <Position type="unit">10</Position> <!-- first tab stop -->
+        </ListItem>
+        </TabList>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Title" Name="Title" Imported="false" NextStyle="ParagraphStyle/Subtitle" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Thin" PointSize="23" KerningMethod="$$ID/Optical" Tracking="400" Capitalization="AllCaps" LeftIndent="15" RightIndent="15" Hyphenation="false" Justification="FullyJustified">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="unit">28</Leading>
+        <AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Subtitle" Name="Subtitle" Imported="false" NextStyle="ParagraphStyle/Subtitle" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light" PointSize="16" KerningMethod="$$ID/Metrics" Tracking="100" LeftIndent="16" RightIndent="16" SpaceBefore="8" SpaceAfter="8" RuleBelowOffset="9.921259842519685" Justification="CenterAlign">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/Title</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="unit">8</Leading>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Abstract" Name="Abstract" Imported="false" NextStyle="ParagraphStyle/Abstract" SplitDocument="false" EmitCss="true" StyleUniqueId="3e858e84-c2d0-48f1-94a1-8c59093687bb" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light Italic" Tracking="25" LeftIndent="96" SpaceAfter="8" Justification="LeftJustified">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Header-includes" Name="Header-includes" Imported="false" NextStyle="ParagraphStyle/Header-includes" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Regular " PointSize="10" LeftIndent="16" RightIndent="16" AppliedLanguage="$$ID/Portuguese: Orthographic Agreement" SpaceAfter="8" OTFFigureStyle="ProportionalOldstyle" Justification="CenterJustified" PositionalForm="Calculate" GridAlignment="AlignBaseline" TreatIdeographicSpaceAsSpace="false" DiacriticPosition="OpentypePosition">
+      <Properties>
+        <BasedOn type="string">$$ID/[No paragraph style]</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="unit">8</Leading>
+        <TabList type="list">
+          <ListItem type="record">
+            <Alignment type="enumeration">RightAlign</Alignment>
+            <AlignmentCharacter type="string">.</AlignmentCharacter>
+            <Leader type="string"></Leader>
+            <Position type="unit">283.46456692913387</Position>
+          </ListItem>
+        </TabList>
+        <AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+        <ParagraphBorderGapColor type="object">Swatch/None</ParagraphBorderGapColor>
+        <BulletChar BulletCharacterType="UnicodeWithFont" BulletCharacterValue="10070" />
+        <BulletsFont type="string">Zapf Dingbats</BulletsFont>
+        <BulletsFontStyle type="string">Regular</BulletsFontStyle>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Header1 Unnumbered" Name="Header1 Unnumbered" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="f04b71e5-0b2c-49b1-9913-a3d6c7041d19" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Medium" Hyphenation="false" SpaceBefore="16" SpaceAfter="0" OTFFigureStyle="ProportionalLining" KeepAllLinesTogether="true" KeepWithNext="1" RuleBelowOffset="8" RuleBelowLeftIndent="16" RuleBelowRightIndent="16" Justification="LeftAlign">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/Abstract</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <BalanceRaggedLines type="enumeration">VeeShape</BalanceRaggedLines>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign" Name="TablePar &gt; TableHeader &gt; RightAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="51d8da18-1056-4877-a9f5-411520537b4d" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" Justification="RightAlign">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign" Name="TablePar &gt; TableHeader &gt; LeftAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="a5914698-acf2-4101-89fd-72d43d1f9832" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="10" Capitalization="CapToSmallCap" LeftIndent="0" RightIndent="0" Justification="LeftAlign">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="unit">8</Leading>
+        <AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/TablePar &gt; RightAlign" Name="TablePar &gt; RightAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; RightAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="6ca73408-e31a-4d82-836d-42cd53c2e081" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" OTFFigureStyle="TabularOldstyle" Justification="RightAlign">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/TablePar &gt; LeftAlign</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/TablePar &gt; LeftAlign" Name="TablePar &gt; LeftAlign" Imported="false" NextStyle="ParagraphStyle/TablePar &gt; LeftAlign" SplitDocument="false" EmitCss="true" StyleUniqueId="7feba5f8-4fce-4f8a-ad07-f1a0389ac627" IncludeClass="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Book" PointSize="9" LeftIndent="0" RightIndent="0" Justification="LeftAlign">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="enumeration">Auto</Leading>
+        <AppliedFont type="string">Joanna Sans Nova</AppliedFont>
+      </Properties>
+    </ParagraphStyle>
+    <ParagraphStyle Self="ParagraphStyle/Assinatura" Name="Assinatura" Imported="false" NextStyle="ParagraphStyle/Assinatura" SplitDocument="false" EmitCss="true" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Book" PointSize="12" KerningMethod="$$ID/Optical" Tracking="100" LeftIndent="16" RightIndent="16" Hyphenation="false" Justification="LeftAlign">
+      <Properties>
+        <BasedOn type="object">ParagraphStyle/$$ID/NormalParagraphStyle</BasedOn>
+        <PreviewColor type="enumeration">Nothing</PreviewColor>
+        <Leading type="unit">16</Leading>
+        <AppliedFont type="string">Joanna Nova</AppliedFont>
+      </Properties>
+    </ParagraphStyle>
+	  $parStyles$ 
+	</RootParagraphStyleGroup>
+	<RootCellStyleGroup Self="pandoc_cell_styles">
+			<CellStyle Self="CellStyle/Table Header Right" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign" KeyboardShortcut="0 0" Name="Table Header Right">
+				<Properties>
+					<BasedOn type="object">CellStyle/Table Header</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table Header" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign" VerticalJustification="BottomAlign" RotationAngle="0" BottomEdgeStrokeWeight="1" BottomEdgeStrokeType="StrokeStyle/$$ID/Solid" BottomEdgeStrokeColor="Color/Registration" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="true" KeyboardShortcut="0 0" Name="Table Header">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table left column" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign" KeyboardShortcut="0 0" Name="Table left column">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Cell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign" TopInset="0" LeftInset="8" BottomInset="4" RightInset="8" FillColor="Swatch/None" FirstBaselineOffset="LeadingOffset" VerticalJustification="TopAlign" LeftEdgeStrokeColor="Swatch/None" TopEdgeStrokeColor="Swatch/None" RightEdgeStrokeColor="Swatch/None" BottomEdgeStrokeColor="Swatch/None" KeyboardShortcut="0 0" RotationRunsAgainstStory="false" Name="Cell">
+				<Properties>
+					<BasedOn type="string">$$ID/[None]</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table Footer" AppliedParagraphStyle="ParagraphStyle/$$ID/[No paragraph style]" VerticalJustification="BottomAlign" RotationAngle="0" TopEdgeStrokeWeight="1" TopEdgeStrokeType="StrokeStyle/$$ID/Solid" TopEdgeStrokeColor="Color/Black" TopEdgeStrokeOverprint="true" BottomEdgeStrokeWeight="1" BottomEdgeStrokeType="StrokeStyle/$$ID/Solid" BottomEdgeStrokeTint="100" BottomEdgeStrokeOverprint="true" KeyboardShortcut="0 0" Name="Table Footer">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Table Header Left" TextTopInset="0" TextLeftInset="0" AppliedParagraphStyle="ParagraphStyle/$$ID/[No paragraph style]" TopInset="0" LeftInset="0" VerticalJustification="TopAlign" BottomEdgeStrokeColor="Swatch/None" KeyboardShortcut="0 0" Name="Table Header Left">
+				<Properties>
+					<BasedOn type="object">CellStyle/Table Header</BasedOn>
+				</Properties>
+			</CellStyle>
+			<CellStyle Self="CellStyle/Cell Currency" AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign" KeyboardShortcut="0 0" Name="Cell Currency">
+				<Properties>
+					<BasedOn type="object">CellStyle/Cell</BasedOn>
+				</Properties>
+			</CellStyle>
+		</RootCellStyleGroup>
+	<RootTableStyleGroup Self="pandoc_table_styles">
+	  <TableStyle Self="TableStyle/Table" Name="Table" />
+	</RootTableStyleGroup>
+	<TextVariable Self="dTextVariablenCopyright e ano (output date)" Name="Copyright e ano (output date)" VariableType="OutputDateType">
+		<DateVariablePreference TextBefore="^2 " Format="yyyy" TextAfter="" />
+	</TextVariable>
+  <Story Self="pandoc_story" TrackChanges="false" StoryTitle="$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$" AppliedTOCStyle="n" AppliedNamedGrid="n" >
+		<StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+    $if(author)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header-includes">
+			$author$
+			<Br />
+		</ParagraphStyleRange>
+    $endif$
+    $if(title)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Title">
+			$title$
+			<Br />
+		</ParagraphStyleRange>
+    $endif$
+    $if(subtitle)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Subtitle">
+			$subtitle$
+			<Br />
+		</ParagraphStyleRange>
+    $endif$
+    $if(date)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header-includes">
+			$date$
+			<Br />
+		</ParagraphStyleRange>
+    $endif$
+    $if(abstract)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Abstract">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/BoldItalic">
+				<Content>Resumo</Content>
+			</CharacterStyleRange>
+			<Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Abstract">
+			$abstract$
+			<Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Abstract">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/BoldItalic">
+				<Content>Palavras-chave: </Content>
+			</CharacterStyleRange>
+				$for(keywords)$$keywords$$sep$<CharacterStyleRange AppliedCharacterStyle="$$ID/NormalCharacterStyle"><Content>, </Content></CharacterStyleRange>$endfor$
+		</ParagraphStyleRange>
+		<Br />
+    $endif$
+
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Identificação</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		$for(contributor)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			$contributor.role$
+			<Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Table Self="table_ident_interessada" HeaderRowCount="1" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="7" ColumnCount="2" AppliedTableStyle="TableStyle/Table" TableDirection="LeftToRightDirection">
+					<Row Self="row_interessada_razao_social" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="20" />
+					<Row Self="row_interessada_cnpj" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_address" Name="2" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_address2" Name="3" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_resp" Name="4" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_cpf" Name="5" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_email" Name="6" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_interessada_phone" Name="7" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Column Self="col_interessada_headers" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="128" />
+					<Column Self="col_interessada_content" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="336" />
+					<Cell Self="cell_interessada_razao_social_header" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header Right" AppliedCellStylePriority="2" LeftEdgeStrokePriority="6" RightEdgeStrokePriority="16" TopEdgeStrokePriority="6" BottomEdgeStrokePriority="6">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Razão social</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_razao_social_content" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header" AppliedCellStylePriority="3" LeftEdgeStrokePriority="16" RightEdgeStrokePriority="16" TopEdgeStrokePriority="16" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign">
+							$contributor.institute$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cnpj_header" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+								<Content>CNPJ</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cnpj_content" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.institute-id$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address_header" Name="0:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Endereço</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address_content" Name="1:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.address$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address2_header" Name="0:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_address2_content" Name="1:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.address2$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_resp_header" Name="0:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Responsável legal</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_resp_content" Name="1:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.name$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cpf_header" Name="0:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+								<Content>CPF</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_cpf_content" Name="1:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.id$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_email_header" Name="0:6" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>E-mail</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_email_content" Name="1:6" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.email$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_phone_header" Name="0:7" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Telefone</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_interessada_phone_content" Name="1:7" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$contributor.phone$
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		$endfor$
+		$for(creator)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			$creator.role$
+			<Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$$ID/[No paragraph style]">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Table Self="table_ident_executora" HeaderRowCount="1" FooterRowCount="0" TextTopInset="4" TextLeftInset="4" TextBottomInset="4" TextRightInset="4" ClipContentToTextCell="false" BodyRowCount="7" ColumnCount="2" AppliedTableStyle="TableStyle/Table" TableDirection="LeftToRightDirection">
+					<Row Self="row_ident_executora_razao_social" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="20" />
+					<Row Self="row_ident_executora_cnpj" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_address" Name="2" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_address2" Name="3" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_responsavel" Name="4" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_cau" Name="5" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_email" Name="6" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Row Self="row_ident_executora_phone" Name="7" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleRowHeight="16" />
+					<Column Self="col_ident_executora_headers" Name="0" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="128" />
+					<Column Self="col_ident_executora_content" Name="1" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" SingleColumnWidth="336" />
+					<Cell Self="cell_ident_executora_razao_social_header" Name="0:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header Right" AppliedCellStylePriority="2" LeftEdgeStrokePriority="6" RightEdgeStrokePriority="16" TopEdgeStrokePriority="6" BottomEdgeStrokePriority="6">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Razão social</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_razao_social_content" Name="1:0" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table Header" AppliedCellStylePriority="3" LeftEdgeStrokePriority="16" RightEdgeStrokePriority="16" TopEdgeStrokePriority="16" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; TableHeader &gt; LeftAlign">
+							$creator.institute$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cnpj_header" Name="0:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="17" BottomEdgeStrokePriority="5">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+								<Content>CNPJ</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cnpj_content" Name="1:1" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="5" BottomEdgeStrokePriority="6">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.institute-id$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address_header" Name="0:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="5" BottomEdgeStrokePriority="7">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Endereço</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address_content" Name="1:2" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="6" BottomEdgeStrokePriority="8">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.address$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address2_header" Name="0:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="7" BottomEdgeStrokePriority="9">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]" />
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_address2_content" Name="1:3" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="8" BottomEdgeStrokePriority="10">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.address2$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_resp_header" Name="0:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="9" BottomEdgeStrokePriority="11">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Responsável legal</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_resp_content" Name="1:4" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="10" BottomEdgeStrokePriority="12">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.name$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cau_header" Name="0:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="11" BottomEdgeStrokePriority="13">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/SmallCaps">
+								<Content>CAU</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_cau_content" Name="1:5" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="12" BottomEdgeStrokePriority="14">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.id$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_email_header" Name="0:6" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="13" BottomEdgeStrokePriority="15">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>E-mail</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_email_content" Name="1:6" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="14" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.email$
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_phone_header" Name="0:7" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Table left column" AppliedCellStylePriority="3" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="17" TopEdgeStrokePriority="15" BottomEdgeStrokePriority="15">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; RightAlign">
+							<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+								<Content>Telefone</Content>
+							</CharacterStyleRange>
+						</ParagraphStyleRange>
+					</Cell>
+					<Cell Self="cell_ident_executora_phone_content" Name="1:7" RowSpan="1" ColumnSpan="1" CellType="TextTypeCell" TextTopInset="0" TextLeftInset="8" TextBottomInset="4" TextRightInset="8" ClipContentToTextCell="false" AppliedCellStyle="CellStyle/Cell" AppliedCellStylePriority="2" LeftEdgeStrokePriority="17" RightEdgeStrokePriority="5" TopEdgeStrokePriority="16" BottomEdgeStrokePriority="16">
+						<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/TablePar &gt; LeftAlign">
+							$creator.phone$
+						</ParagraphStyleRange>
+					</Cell>
+				</Table>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		$endfor$
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+$body$
+
+		<Br />
+$for(signature)$
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Assinatura">
+			$signature.headline$
+			<Br />
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Assinatura">
+			<Br />
+			<Br />
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$$ID/[No character style]">
+				<Content>___________________________________</Content>
+				<Br />
+			</CharacterStyleRange>
+			$signature.author$
+			<Br />
+			$signature.author-contact$
+			<Br />
+		</ParagraphStyleRange>
+$endfor$
+
+  </Story>
+  $hyperlinks$
+</Document>
